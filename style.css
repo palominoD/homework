@@ -1,0 +1,128 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #CD5C5C;
+}
+
+/* Header */
+header {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Main content */
+main {
+    flex: 1;
+    padding: 2em;
+    background-color: #AFEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.lyrics {
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.lyrics p {
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+.dynamic-box {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 5px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.dynamic-box::placeholder {
+    color: #ccc;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFF8DC;
+    color: #000080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Complete lyrics section */
+.complete-lyrics {
+    max-width: 600px;
+    margin: 20px auto 0;
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.complete-lyrics p {
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+/* Colores para resaltar */
+.color {
+    color: #FA6387; /* other */
+}
+
+.color1 {
+    color: #FF6347; /* Tomato */
+}
+
+.color2 {
+    color: #4682B4; /* Steel Blue */
+}
+
+.color3 {
+    color: #8B008B; /* Dark Magenta */
+}
+
+.color4 {
+    color: #FF8C00; /* Dark Orange */
+}
+
+.color5 {
+    color: #00CED1; /* Dark Turquoise */
+}
+
+.color6 {
+    color: #8A2BE2; /* Blue Violet */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
